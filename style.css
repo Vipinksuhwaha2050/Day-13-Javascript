@@ -1,0 +1,35 @@
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side {
+    height: 95px;
+    width: 95px;
+    line-height: 90px;
+    position: absolute;
+    text-align: center;
+}
+.top {
+    background: blue;
+    transform: rotate(-45deg) skew(15deg, 15deg);
+}
+.left {
+    background: green;
+    transform: rotate(15deg) skew(15deg, 15deg) translate(-50%, 100%);
+}
+.right {
+    background: red;
+    transform: rotate(-15deg) skew(-15deg, -15deg) translate(50%, 100%);
+}
+
+.wrapper{
+    transition: all 1s;
+}
+
+/* .wrapper:hover{
+    transform: scale(1.5) rotate(10deg) translate(50px, 100px);
+} */
